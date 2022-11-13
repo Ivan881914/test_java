@@ -6,17 +6,12 @@ public class Main extends JFrame {
     public Main() {
         super("Погода на неделю Иркутск"); //Заголовок окна
 
-        setBounds(100, 100, 200, 200); //Если не выставить
-
-        JLabel textEmail = new JLabel(); //creating object for text field
-        //textEmail.setBounds(50, 50, 150, 20); //setting the bounds for the text box
-        textEmail.add(new JLabel("доллар " ));
-        textEmail.setVisible(true);
-
-
+        setBounds(100, 100, 200, 200); 
+        //Если не выставить
         //размер и положение
         //то окно будет мелкое и незаметное
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //это нужно для того чтобы при
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
+        //это нужно для того чтобы при
         //закрытии окна закрывалась и программа,
         //иначе она останется висеть в процессах
     }
